@@ -8,15 +8,16 @@
 
 /* general */
 .col {
-    width: auto;
+    width: 100%;
+    padding: 1rem;
 }
-.col-3 {
-    width: calc(100% / 12 * 3);
-    display: flex;
+.col-4 {
+    width: calc(100% / 12 * 4);
+    padding: 1rem;
 }
-.col-9 {
-    width: calc(100% / 12 * 9);
-    display: flex;
+.col-8 {
+    width: calc(100% / 12 * 8);
+    padding: 1rem;
 }
 
 /* header */
@@ -70,11 +71,16 @@
     background-color: #3f9cff;
 }
 /* main */
-.container {
+.jumbo-container {
+    max-width: 1200px;
+    width: 80%;
+    margin: auto;
+}
+.row {
+    width: 100%;
     display: flex;
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 20px;
+    margin: auto;
+    justify-content: space-between;
 }
 .color {
     background-color: #B4D1E6;
@@ -82,8 +88,8 @@
 .jumbotron {
     padding: 60px 30px;
     border-radius: 10px;
-    text-align: center;
     background-color: #B4D1E6;
+    width: 100%;
 }
 .jumbotron h1 {
     font-size: 4em;
@@ -94,8 +100,15 @@
     text-align: left;
 }
 .img-jumbo {
-    max-width: 500px;
+    max-width: 100%;
     height: auto;
-    margin-bottom: -150px;
+}
+.margin {
+    margin: 20px 0;
+}
+.container {
+    max-width: 1200px;
+    width: 70%;
+    margin: auto;
 }
 /* footer */
