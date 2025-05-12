@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    border: 1px dashed red;
+    /* border: 1px dashed red; */
 }
 
 /* general */
@@ -245,13 +245,7 @@ li {
     width: 80%;
     margin: auto;
     color: #ffffff;
-}
-.footer {
-    padding: 60px 30px;
-    border-radius: 10px;
-    width: 100%;
-    color: #ffffff;
-    f
+    min-height: 300px;
 }
 footer {
     background-color: #000000;
@@ -259,5 +253,11 @@ footer {
 .linea-footer {
     border: 1px solid #ffffff;
     width: 11%;
-    margin: 13px 17px;
+    margin: 13px 0;
+}
+.margin {
+    margin: 0 17px;
+}
+.padding {
+    padding-top: 50px;
 }
