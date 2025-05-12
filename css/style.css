@@ -8,7 +8,7 @@
 
 /* general */
 .col {
-    width: 100%;
+    width: auto;
     padding: 1rem;
 }
 .col-4-jumbo {
@@ -122,8 +122,9 @@ header {
 .row {
     width: 100%;
     display: flex;
-    margin: auto;
+    margin:auto;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 .color {
     background-color: #B4D1E6;
@@ -230,5 +231,33 @@ li {
     justify-content: center;
     align-items: flex-start;
 }
+.center-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    gap: 40px;
+}
 
 /* footer */
+.footer-container {
+    max-width: 1200px;
+    width: 80%;
+    margin: auto;
+    color: #ffffff;
+}
+.footer {
+    padding: 60px 30px;
+    border-radius: 10px;
+    width: 100%;
+    color: #ffffff;
+    f
+}
+footer {
+    background-color: #000000;
+}
+.linea-footer {
+    border: 1px solid #ffffff;
+    width: 11%;
+    margin: 13px 17px;
+}
